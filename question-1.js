@@ -12,4 +12,5 @@ myTodo[3].todo = "Go to the gym";
 
 myTodo.pop();
 
-console.log(myTodo[myTodo.length-1])
+console.log("To-do id: " + myTodo[myTodo.length-1].id + ", " + myTodo[myTodo.length-1].todo)
+
